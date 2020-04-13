@@ -18,7 +18,7 @@ public class UserUiMain {
      * 是一种访问restful服务的模板类，是spring提供的用户访问rest服务的客户端模板工具集
      * @return
      */
-    @LoadBalanced
+//    @LoadBalanced
     @Bean
     public RestTemplate restTemplate() {  //
 
